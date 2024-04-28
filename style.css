@@ -1,38 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.header {
-    margin: auto;
-    width: 25%;
-    max-height: 100px;
-    padding: 1rem;
-    border-radius: 20px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    background-color: rgb(155, 152, 152);
-    border-radius: 10px;
+.header{
+  justify-content: center;
+  margin: auto;
+  width: 550px;
+  height: 130px;
+  background-color: rgb(182, 175, 175);
+  display: flex;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 .header img{
-  float: right;
-  margin-left: 10%;
-  width: 50%;
-}
-.header h3{
-  font-size: small;
-  color: black;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  right: 100%;
+  height: 120px;
+  float: inline-end;
+  padding: 2px;
 }
 .header h1{
-  font-size: 200%;
-    -webkit-text-stroke: 2px rgb(209, 207, 207);
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-variation-settings:initial;
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 0px;
+  color: rgb(58, 57, 57);
+  -webkit-text-stroke: 2px rgb(245, 243, 243);
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.header h3{
+  color: rgb(58, 57, 57);
+  padding-top: 0px;
+  padding-left: 2px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.line{
+  margin: auto;
+  width: 550px;
+  height: 10px;
+  background-color: black;
+}
+.conteiner-box{
+  width: 41%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.conteiner-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  background-color: #f8cb05;
+  height: 60px;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  align-items: center;
+  
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+nav ul li {
+  padding: 1rem;
+
 }
 
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+}
+hr{
+  background-color: white;
+  width: 17px;
+  transform: rotate(90deg);
+}
