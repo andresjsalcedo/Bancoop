@@ -12,15 +12,16 @@
 }
 .header img{
   right: 100%;
-  height: 120px;
+  height: 125px;
   float: inline-end;
   padding: 2px;
 }
 .header h1{
   margin: auto;
+  margin-right: 26px;
   padding-top: 15px;
   padding-left: 0px;
-  color: rgb(58, 57, 57);
+  color: rgb(44, 44, 44);
   -webkit-text-stroke: 2px rgb(245, 243, 243);
   font-size: 60px;
   font-family: "Roboto", sans-serif;
@@ -43,7 +44,7 @@
   background-color: black;
 }
 .conteiner-box{
-  width: 41%;
+  width: 21.7%;
   display: flex;
   justify-content: center;
   align-items: center;
