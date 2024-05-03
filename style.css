@@ -47,7 +47,6 @@
 }
 .conteiner-box{
   width: 44.9%;
-  width: 21.7%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +59,7 @@
 }
 nav {
   background-color: #f8cb05;
-  height: 50px;
+  height: 60px;
   border-radius: 20px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
