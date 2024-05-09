@@ -1,2 +1,12 @@
-@media (300px <= width <= 1024){
+@media (width: 300px){ 
+    .header{
+        width: 190px;
+    }
+    .conteiner-box{
+        width: 200px;
+    }
+    .conteiner-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 120px);
+    }
 }
